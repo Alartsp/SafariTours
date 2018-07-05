@@ -26,11 +26,12 @@ body {
 }
 
 header {
+    position: relative;
     display: flex;
     margin: 0 auto;
     flex: 0 0 auto;
     height: 440px;
-    width: 100%;
+    width: 1280px;
     overflow: hidden;
     background-image: url("../images/cloud_1.png"), url("../images/cloud_2.png"), url("../images/bg_up.png");
     background-repeat: no-repeat;
@@ -55,6 +56,15 @@ header {
 
 .h_logo {
     float: left;
+}
+
+.offer {
+    width: 177px;
+    height: 95px;
+    position: absolute;
+    top: 196px;
+    left: 885px;
+
 }
 
 .upper_menu ul {
