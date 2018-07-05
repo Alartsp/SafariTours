@@ -32,6 +32,9 @@ header {
     height: 440px;
     width: 100%;
     overflow: hidden;
+    background-image: url("../images/cloud_1.png"), url("../images/cloud_2.png"), url("../images/bg_up.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .upper_menu {
