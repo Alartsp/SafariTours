@@ -15,3 +15,52 @@ html,
 body {
     height: 100%;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1280px;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    flex: 0 0 auto;
+    height: 440px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.upper_menu {
+    margin: 0 auto;
+    flex: 0 0 auto;
+    height: 123px;
+    width: 967px;
+    background-image: url('../images/upper_bg_1.png');
+    background-repeat: no-repeat;
+}
+
+.upper_menu div {
+    height: 100%;
+    width: 100%px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.h_logo {
+    float: left;
+}
+
+.upper_menu ul {
+    padding: 15px 0 0 25px;
+    display: flex;
+    height: 100%;
+    width: 526px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 17px;
+    color: white;
+}
