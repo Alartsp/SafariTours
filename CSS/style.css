@@ -78,6 +78,10 @@ header {
     left: 885px;
 }
 
+h4 {
+    color: white;
+}
+
 .cont_1 {
     position: absolute;
     margin: 0 auto;
@@ -87,7 +91,6 @@ header {
     height: 145px;
     left: 140px;
     bottom: 0;
-    background-color: red;
     padding-top: 20px;
 }
 
@@ -101,13 +104,34 @@ header {
     margin: 0;
 }
 
-.cont_1 ul li {
-    background-color: black;
+.cont_1 p {
+    color: white;
+}
+
+.cont_1 img {
+    float: left;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.minoffers {
+    overflow: hidden;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.read {
+    margin-left: 20px;
+    padding: 3px 5px 3px 5px;
+    background-color: #fcf004;
+    border-radius: 5px;
+    color: #127ea5;
+    font-weight: bold;
 }
 
 .offers {
-    width: 286px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     overflow: hidden;
     padding: 0;
     color: #767676;
@@ -162,6 +186,24 @@ main {
     font-size: 18px;
 }
 
+h3 {
+    font-style: italic;
+    font-family: Serif;
+    margin-bottom: 8px;
+}
+
+.readmore{
+    padding: 4px;
+    margin-top: 15px;
+    background-color: #127ea5;
+    width: 115px;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
 .right {
     width: 243px;
     height: auto;
@@ -185,6 +227,17 @@ main {
 .cont_3 {
     margin-top: 20px;
     height: 337px;
+}
+
+.right ul {
+    list-style-type: none;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.right ul li {
+    margin-top: 8px;
 }
 
 .rib1 {
