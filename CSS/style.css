@@ -47,27 +47,36 @@ header {
     background-repeat: no-repeat;
 }
 
-.upper_menu ul {
-    padding: 15px 0 0 25px;
-    margin: 0;
-    display: flex;
-    height: 100%;
-    width: 526px;
-    justify-content: space-between;
-    list-style-type: none;
-    font-size: 17px;
+.upper_menu a{
     color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 110px;
+    font-size: 17px;
+}
+
+.upper_menu a:hover{
+    font-weight: bolder;
+}
+
+.upper_menu li {
+    display: inline;
 }
 
 .upper_menu div {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 40px;
-}
+    margin-left: 220px;
+    padding: 0;
+    list-style-type: none;
+    width: 698px;
+    text-align: center;
+ }
 
 .h_logo {
-    float: left;
+    width: 269px;
+    height: 123px;
+    position: absolute;
+    left: 180px;
 }
 
 .offer {
