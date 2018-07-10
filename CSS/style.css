@@ -16,6 +16,7 @@ body {
     height: 100%;
 }
 
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -103,6 +104,10 @@ h4 {
     padding-top: 20px;
 }
 
+.cont_1 a{
+    text-decoration: none;
+}
+
 .cont_1 ul {
     width: 1000px;
     height: 100px;
@@ -134,8 +139,17 @@ h4 {
     padding: 3px 5px 3px 5px;
     background-color: #fcf004;
     border-radius: 5px;
-    color: #127ea5;
+    color: #129fc6;
     font-weight: bold;
+}
+
+span.read:hover {
+    background-color: #129fc6;
+    color: #fcf004;
+}
+
+span.read:active {
+    box-shadow: inset 1px 1px 1px 1px #0f425d;
 }
 
 .offers {
@@ -213,6 +227,19 @@ h3 {
     text-align: center;
 }
 
+.tours a{
+    text-decoration: none;
+}
+
+.readmore:hover{
+    background-color: #ffffff;
+    color: #127ea5;
+}
+
+.readmore:active{
+    box-shadow: inset 1px 1px 1px 1px #0f425d;
+}
+
 .right {
     width: 243px;
     height: auto;
@@ -266,12 +293,14 @@ footer {
     width: 1280px;
     background: #1380a7;
     margin: 0 auto;
+    bottom: 0;
 }
 
 .footer {
+    position: relative;
     width: 1000px;
     height: 320px;
-    padding: 20px 15px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -289,34 +318,116 @@ footer {
     border: 1px ridge #0f6686;
     box-shadow: inset 1px 1px 1px 1px #0f425d;
     color: #1084af;
-
-}
 }
 
-.footer .subscribe {
-    background-color: #1380a7;
+.footer h2 {
+    margin-bottom: 10px;
 }
 
 .social {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     width: 330px;
     height: 320px;
-    color: white;
+    color: #ffffff;
+}
+
+.social h2:nth-child(3) {
+    margin: 15px 0 10px 0;
+}
+
+.social span.subscribe {
+    background-color: #d6e6ef;
+    padding: 7px 9px;
+    border-radius: 4px;
+    color: #1084af;
+}
+
+.social p:nth-child(2) a{
+    text-decoration: none;
+}
+
+.social p:nth-child(2) span.subscribe:hover {
+    background-color: #e1f1fa;
+    color: #106f99;
+}
+
+.social p:nth-child(2) span.subscribe:active {
+    box-shadow: inset 0 1px 3px 1px #0f425d;
 }
 
 .contacts {
     margin: 0;
-    padding: 0;
-    width: 240px;
+    padding: 20px;
+    width: 300px;
     height: 320px;
     color: white;
+    line-height: 30px;
 }
 
 .cont_form {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     width: 320px;
     height: 320px;
     color: white;
+}
+
+.cont_form .name, .phone {
+    padding: 0 5px;
+    margin-right: 5px;
+    background-color: #0f6686;
+    height: 30px;
+    width: 180px;
+    transform: perspective(100px) rotateX(-5deg);
+    border-radius: 5px;
+    border: 1px ridge #0f6686;
+    box-shadow: inset 1px 1px 1px 1px #0f425d;
+    color: #1084af;
+}
+
+.cont_form p{
+    margin-top: 15px;
+}
+
+.cont_form .message {
+    padding: 0 5px;
+    margin-right: 5px;
+    background-color: #0f6686;
+    height: 60px;
+    width: 280px;
+    transform: perspective(100px) rotateX(-2deg);
+    border-radius: 5px;
+    border: 1px ridge #0f6686;
+    box-shadow: inset 1px 1px 1px 1px #0f425d;
+    color: #1084af;
+}
+
+.cont_form .submit{
+    background-color: #d6e6ef;
+    padding: 7px 15px;
+    margin-left: 210px;
+    border-radius: 4px;
+    color: #1084af;
+}
+
+.cont_form a{
+    text-decoration: none;
+}
+
+.cont_form a.submit:hover{
+    background-color: #e1f1fa;
+    color: #106f99;
+}
+
+.cont_form a.submit:active{
+    box-shadow: inset 0 1px 3px 1px #0f425d;
+}
+
+.copyright {
+    position: absolute;
+    width: 1000px;
+    bottom: 0;
+    color: white;
+    text-align: center;
 }
