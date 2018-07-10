@@ -271,11 +271,30 @@ footer {
 .footer {
     width: 1000px;
     height: 320px;
-    padding: 0 10px;
+    padding: 20px 15px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     margin: auto;
+}
+
+.footer .email {
+    padding: 0 5px;
+    margin-right: 5px;
+    background-color: #0f6686;
+    height: 30px;
+    width: 180px;
+    transform: perspective(100px) rotateX(-5deg);
+    border-radius: 5px;
+    border: 1px ridge #0f6686;
+    box-shadow: inset 1px 1px 1px 1px #0f425d;
+    color: #1084af;
+
+}
+}
+
+.footer .subscribe {
+    background-color: #1380a7;
 }
 
 .social {
@@ -283,7 +302,7 @@ footer {
     padding: 0;
     width: 330px;
     height: 320px;
-    background-color: white;
+    color: white;
 }
 
 .contacts {
@@ -291,7 +310,7 @@ footer {
     padding: 0;
     width: 240px;
     height: 320px;
-    background-color: white;
+    color: white;
 }
 
 .cont_form {
@@ -299,5 +318,5 @@ footer {
     padding: 0;
     width: 320px;
     height: 320px;
-    background-color: white;
+    color: white;
 }
