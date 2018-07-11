@@ -250,6 +250,20 @@ h3 {
     position: relative;
 }
 
+.right a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.right a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.right a:active{
+    color: #7f82ff;
+}
+
 .cont_2, .cont_3  {
     margin-left: 10px;
     width: 233px;
@@ -268,7 +282,7 @@ h3 {
 .right ul {
     list-style-type: none;
     color: white;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 30px;
 }
 
